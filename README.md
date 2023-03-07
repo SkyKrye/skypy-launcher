@@ -23,11 +23,11 @@ No it won't affect any game data since it currently uses a custom .minecraft fol
 
 ## future plans
 Since you just saw all the reasons to use this launcher, here are the things I want to do in the future/the stuff I've completed:
-- [] proper gui
-- [] no bugs
-- [] custom mod support
-- [] microsoft login (using tokens rn)
-- [] the ability to use the .minecraft folder in AppData without custom profile issues
-- [] pyTer integration
+- [ ] proper gui
+- [ ] no bugs
+- [ ] custom mod support
+- [ ] microsoft login (using tokens rn)
+- [ ] the ability to use the .minecraft folder in AppData without custom profile issues
+- [ ] pyTer integration
 
 Well enjoy!
