@@ -21,6 +21,13 @@ Although it might not be usable in the future you can follow these steps to get 
 - <b>"Will it affect my current game data?"</b>
 No it won't affect any game data since it currently uses a custom .minecraft folder that's located inside the running folder of the launcher, however if you want to then you can change the directory to the default one however if there are no versions installed (the one you will run) then it will surely give an error.
 
+## libraries
+Do these commands in the terminal/cmd for the python version to work:
+- `pip install minecraft-launcher-lib`
+- `pip install subprocess`
+- `pip install argparse`
+- `pip install tkinter`
+
 ## future plans
 Since you just saw all the reasons to use this launcher, here are the things I want to do in the future/the stuff I've completed:
 - [ ] proper gui
