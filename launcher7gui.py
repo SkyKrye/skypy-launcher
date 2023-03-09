@@ -19,13 +19,11 @@ import tkinter as tk
 from tkinter import CENTER
 import tkinter.ttk as ttk
 
-# Crea la finestra
 root = tk.Tk()
 root.geometry("400x300")
 
 w_title = tk.Label(root, text = 'PySky Launcher',  font=('Segoe UI', 50, 'bold'))
 
-# Aggiungi un'immagine di sfondo
 bg_image = PhotoImage(file="night.png")
 background_label = Label(root, image=bg_image)
 background_label.place(relwidth=1, relheight=1)
@@ -85,13 +83,6 @@ token_label(container, "Token", 3, 2)
 token_entry(container, 3, 3)
 create_button(container, "Submit", None, 5, 3)
 
-# Esegui la finestra
-# declaring string variable
-# for storing name and password
-
-# defining a function that will
-# get the name and password and
-# print them on the screen
 def submit():
  
     NEusername=name_var.get()
@@ -113,16 +104,7 @@ def submit():
     token_var.set("")
     dir_var.set("")
 
-
-
-# creating a button using the widget
-# Button that will call the submit function
-
 sub_btn=tk.Button(root,text = 'Submit', command = root.destroy)
-
-
-# performing an infinite loop
-# for the window to display
 root.mainloop()
 
 NEusername=name_var.get()
