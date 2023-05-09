@@ -257,7 +257,7 @@ def main():
         options["server"] = args["server"]
         if args["port"]:
             options["port"] = args["port"]
-    md = "C:\\Users\\Raahim\\OneDrive\\Desktop\\launcher\\.minecraft"
+    md = "%appdata%\\.minecraft"
     command = minecraft_launcher_lib.command.get_minecraft_command(MCuseversion, minecraft_directory, options)
 
     if args["command"]:
